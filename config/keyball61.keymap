@@ -60,7 +60,7 @@
             key-positions = <59 48>;
         };
 
-        bootloader {
+        bootloader2 {
             bindings = <&bootloader>;
             key-positions = <56 55 54>;
         };

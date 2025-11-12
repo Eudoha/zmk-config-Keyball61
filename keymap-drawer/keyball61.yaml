@@ -269,7 +269,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:mouse-scroll-wheel$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -281,7 +281,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - PgUp
   - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
+  - SCROLL
   - $$mdi:mouse-right-click-outline$$
   - SCROLL
   - {t: '$$mdi:transfer$$', type: trans}
@@ -290,7 +290,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - SCROLL
+  - $$mdi:mouse-scroll-wheel$$
   - SNIPE
   - {t: '$$mdi:transfer$$', type: trans}
   - PgDn
@@ -304,7 +304,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
+  - SCROLL
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -343,7 +343,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -366,7 +366,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

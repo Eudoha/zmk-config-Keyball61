@@ -94,7 +94,13 @@
 
         bootloader {
             bindings = <&bootloader>;
-            key-positions = <59 48>;
+            key-positions = <49 60>;
+        };
+
+        toggle_mouse_layer {
+            bindings = <&tog 4>;
+            key-positions = <57 58>;
+            require-prior-idle-ms = <1000>;
         };
     };
 
@@ -172,7 +178,7 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans  &trans  &trans  &trans  &trans     &trans                        &trans         &trans     &trans     &trans     &trans  &trans
+&to 0   &trans  &trans  &trans  &trans     &trans                        &trans         &trans     &trans     &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans     &trans                        &trans         &trans     &mkp MCLK  &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans     &trans                        &kp PAGE_UP    &mkp LCLK  &mo 5      &mkp RCLK  &mo 5   &trans
 &trans  &trans  &trans  &trans  &trans     &mkp MCLK  &mo 6      &trans  &kp PAGE_DOWN  &to 0      &mkp MB4   &mkp MB5   &mo 5   &trans
